@@ -1,0 +1,11 @@
+version: '2'
+services:
+    xconnect_gateway:
+        ports:
+            - ${MQTT_PORT}:1883
+        network_mode: bridge
+        container_name: xconnect_gateway_${GW_NAME}
+        image: xconnect/xconnect_gateway
+        env_file: gw.env
+        environment:
+            - SELENE_HOSTNAME=${GW_NAME}
