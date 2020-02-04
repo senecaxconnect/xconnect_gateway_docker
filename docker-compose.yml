@@ -9,3 +9,8 @@ services:
         env_file: gw.env
         environment:
             - SELENE_HOSTNAME=${GW_NAME}
+        logging:
+            driver: "json-file"
+            options:
+                max-file: "5"
+                max-size: "10m"
