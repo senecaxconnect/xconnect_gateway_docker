@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo How many gateways do you want to run (max 9)?
+echo How many gateways do you want to run?
 
 read gwnum
 
