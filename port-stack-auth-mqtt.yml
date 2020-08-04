@@ -1,6 +1,7 @@
 version: '2'
 services:
     xconnect_gateway:
+        restart: unless-stopped
         ports:
             - ${MQTT_PORT}:1883
         network_mode: bridge
