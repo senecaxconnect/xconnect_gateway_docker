@@ -23,9 +23,7 @@ Currently unsupported in Gateway Container:
     `GW_NAME=XCGW_UNIQUENAMEHERE` 
 
 5. docker-compose up -d
-
-###### Linux Example: 
-`MQTT_PORT=15001 GW_NAME=XCGW-DOCK01 docker-compose up -d`
+6. `MQTT_PORT=15001 GW_NAME=XCGW-DOCK01 docker-compose up -d`
 
 ## Installation (Windows)
 1. Enable Hyper-V and Containers Feature in Windows Add/Remove Features
