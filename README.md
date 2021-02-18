@@ -33,11 +33,5 @@ This container will only install:
 6. `docker-compose up -d`
 
 
-## Multiple Instances (Linux)
-
-1. `bash scale.sh`
-2. Enter number of gateways to create (Currently support up to 9)
-
-
 
 
