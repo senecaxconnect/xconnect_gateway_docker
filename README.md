@@ -7,7 +7,7 @@ This container image includes:
 - xConnect Gateway Engine (Required to connect edge devices/agents to your cloud instance)
 - MQTT Broker for xConnect Agents pub/sub (Responsible for telemetry handling between edge devices/agents and the gateway)
 
-Currently unsupported in Gateway Container
+Currently unsupported in Gateway Container:
 - Remote Desktop
 - Custom Tunnels
 
