@@ -8,8 +8,7 @@ This container image includes:
 - MQTT Broker for xConnect Agents pub/sub (Responsible for telemetry handling between edge devices/agents and the gateway)
 
 Currently unsupported in Gateway Container:
-- Remote Desktop
-- Custom Tunnels
+- ~~Remote Desktop~~ Remote Desktop support added for virtual gateways in 2021.08.0 release!
 
 ## Installation (Linux)
 
